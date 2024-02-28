@@ -1,0 +1,150 @@
+html{
+    border: solid rgb(0, 179, 255);
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title p{
+    color: orange;
+    text-align: left;
+    font-style: italic;
+    padding: 0 0 0 25px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    max-width: 50%;
+    height: auto;
+}
+
+.placeholder {
+    text-align: right;
+    padding: 0 25px 0 0;
+}
+.placeholder button{
+    background-color: black;
+    color: white;
+}
+.banner{
+    margin: 0;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 221, 255);
+    margin: 0;
+}
+h4{
+    text-align: center;
+    font-style: bold;
+}
+
+p{
+    text-align: center;
+    color: red;
+}
+
+del{
+    color: gray;
+}
+
+div.polaroid {
+    width: 25%;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 20px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+.polaroid img{
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+}
+
+.polaroid button{
+    background-color: orange;
+    text-align: center;
+    margin: auto; /* đặt margin: auto, đưa nút bấm vào giữa*/
+    color: white;
+    border: 10px solid orange; /* bo viền 4 cạnh*/
+    border-radius: 20px;/*bo tròn viền*/
+    display: block; /*để sử dụng margin: auto, đặt display thành block*/
+    cursor: pointer;
+}
+
+/* div.container {
+    text-align: center;
+    padding: 10px 20px;
+} */
+
+.info{
+    background-color: rgb(0, 247, 255);
+    text-align: center;
+}
+.info p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.info h5{
+    margin: 0;
+    padding: 10px;
+}
+
+#shop{
+    padding: 0 0 0 300px;
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    height: 100%;
+    padding: 5px 50px 0 0; /*khoảng cách giữa nội dung và viền */
+    position: absolute;
+}
+
+.menu ul{
+    list-style-type: none; /* loai bo dau */
+    display: flex; /* hiển thị danh sách theo chiều dọc */
+    flex-direction: column;
+}
+
+.menu li{
+    margin-bottom: 15px; /* khoang cach giua cac list */
+    text-align: left;
+    cursor: pointer;
+    display: block;
+}
+
+.menu li:hover{
+    background-color: rgba(0, 255, 26, 0.419);
+}
+
+.menu li:active{
+    background-color: rgb(0, 217, 255);
+}
